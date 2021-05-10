@@ -1,0 +1,6 @@
+com/jini/redbubble/price/PriceCalculatorTest.java
+ com.jini.redbubble.price.PriceCalculatorTest
+com/jini/redbubble/cart/CartTest.java
+ com.jini.redbubble.cart.CartTest
+com/jini/redbubble/index/BasePriceIndexTest.java
+ com.jini.redbubble.index.BasePriceIndexTest

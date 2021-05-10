@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ce75374-1578-422a-aa9f-369473f08ae7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1s9PbQY0vO5VFAP6LNTM9HtjKDT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jini.redbubble.price" />
+      <recent name="com.jini.redbubble.index" />
+      <recent name="com.jini.redbubble.cart" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jini.redbubble.main.App" />
+      <module name="RedBubble.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jini.redbubble.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasePriceIndexTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.redbubble.index.BasePriceIndexTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.redbubble.cart.CartTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PriceCalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.redbubble.price.PriceCalculatorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PriceCalculatorTest.testInvalidCartArtistMarkup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.jini.redbubble.price.PriceCalculatorTest.testInvalidCartArtistMarkup&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.PriceCalculatorTest" />
+        <item itemvalue="Gradle.BasePriceIndexTest" />
+        <item itemvalue="Gradle.CartTest" />
+        <item itemvalue="Gradle.PriceCalculatorTest.testInvalidCartArtistMarkup" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ce75374-1578-422a-aa9f-369473f08ae7" name="Default Changelist" comment="" />
+      <created>1620281902690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620281902690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="269" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1620626613015">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="578" y="269" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1680.947@0.23.1680.947" timestamp="1620626613015" />
+    <state x="100" y="123" width="1480" height="747" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1620654216475">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="100" y="123" width="1480" height="747" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.947@0.23.1680.947" timestamp="1620654216475" />
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser" timestamp="1620603328969">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="653" y="187" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1620603328969" />
+    <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620452729670">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="578" y="250" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.947@0.23.1680.947" timestamp="1620452729670" />
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom" timestamp="1620654330868">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1620654330868" />
+    <state width="1638" height="253" key="GridCell.Tab.0.center" timestamp="1620654330867">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1620654330867" />
+    <state width="1638" height="253" key="GridCell.Tab.0.left" timestamp="1620654330867">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1620654330867" />
+    <state width="1638" height="253" key="GridCell.Tab.0.right" timestamp="1620654330868">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="253" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1620654330868" />
+    <state width="1638" height="313" key="GridCell.Tab.1.bottom" timestamp="1620298928534">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="313" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1620298928534" />
+    <state width="1638" height="313" key="GridCell.Tab.1.center" timestamp="1620298928533">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="313" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1620298928533" />
+    <state width="1638" height="313" key="GridCell.Tab.1.left" timestamp="1620298928532">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="313" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1620298928532" />
+    <state width="1638" height="313" key="GridCell.Tab.1.right" timestamp="1620298928533">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="313" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1620298928533" />
+    <state x="646" y="421" key="ReplaceDuplicatesPrompt" timestamp="1620512503437">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="646" y="421" key="ReplaceDuplicatesPrompt/0.23.1680.947@0.23.1680.947" timestamp="1620512503437" />
+    <state x="603" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1620608516327">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="603" y="230" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1680.947@0.23.1680.947" timestamp="1620608516327" />
+    <state x="578" y="270" width="524" height="484" key="extract.method.dialog" timestamp="1620512873152">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="578" y="270" width="524" height="484" key="extract.method.dialog/0.23.1680.947@0.23.1680.947" timestamp="1620512873152" />
+  </component>
+</project>
