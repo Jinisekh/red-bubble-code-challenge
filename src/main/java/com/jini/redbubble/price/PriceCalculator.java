@@ -4,7 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jini.redbubble.index.BasePriceIndex;
-
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
@@ -16,7 +15,6 @@ import java.util.Set;
  */
 
 public class PriceCalculator {
-
     private static String optionCombination;
     private BigDecimal totalCartValue = BigDecimal.ZERO;
     private Map<String, Map<String, String>> categoryToOptionsPriceMap;
@@ -112,7 +110,7 @@ public class PriceCalculator {
         if (null == optionCombination) {
             optionCombination = option;
         } else {
-            optionCombination = optionCombination + "-" + option;
+            optionCombination = new StringBuilder().append(optionCombination).append("-").append(option).toString();
         }
     }
 }
