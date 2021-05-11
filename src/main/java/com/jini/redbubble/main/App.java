@@ -32,7 +32,7 @@ public class App {
         if(!totalCartValue.equals(BigDecimal.ZERO)) {
             System.out.println("\n");
             System.out.println("----------------------------------");
-            System.out.println("\t\t\tRESULT");
+            System.out.println("RESULT ::: ");
             System.out.println("----------------------------------");
             System.out.println("The total price of the cart is " + totalCartValue + "\n");
         }
