@@ -36,7 +36,7 @@ cd <your-folder-path>/red-bubble-code-challenge/
 ```
  gradle run  -Parguments="['<Path>-base-prices.json','<Path>-cart.json']"
 ```
-### Example
+### Example - In Mac
 ```
 gradle run  -Parguments="['/Users/name/RedbubbleCodingChallenge/base-prices.json','/Users/name/RedbubbleCodingChallenge/cart-11356.json']"
 
