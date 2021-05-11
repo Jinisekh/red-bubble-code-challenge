@@ -46,7 +46,7 @@ gradle run  -Parguments="['/Users/name/RedbubbleCodingChallenge/base-prices.json
 
 ```
 ----------------------------------
-              RESULT
+RESULT :::
 ----------------------------------
 The total price of the cart is 11356
 
