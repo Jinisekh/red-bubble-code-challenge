@@ -20,7 +20,7 @@ public class PriceCalculatorTest {
     @Before
     public void buildBasePrice() {
         basePriceIndex = new BasePriceIndex();
-        basePriceIndex.buildPriceIndex("../RedbubbleCoding/src/test/resources/base-prices-2-options.json");
+        basePriceIndex.buildPriceIndex("../red-bubble-code-challenge/src/test/resources/base-prices-2-options.json");
     }
 
     @Before
@@ -35,7 +35,7 @@ public class PriceCalculatorTest {
 
     @Test
     public void testPriceCalculator() {
-        JsonNode cartJSON = Utils.readBasePriceFile("../RedbubbleCoding/src/test/resources/cart-4560.json");
+        JsonNode cartJSON = Utils.readBasePriceFile("../red-bubble-code-challenge/src/test/resources/cart-4560.json");
         PriceCalculator calculator = new PriceCalculator();
         calculator.calculateTotalPrice(basePriceIndex, cartJSON);
         BigDecimal totalCartValue = calculator.getTotalCartValue();
@@ -52,7 +52,7 @@ public class PriceCalculatorTest {
     @Test
     public void testInvalidCartQty() {
         final String testString = "The item should have valid quantity greater than zero. Please try again.";
-        JsonNode cartJSON = Utils.readBasePriceFile("../RedbubbleCoding/src/test/resources/cart-Invalid-Qty.json");
+        JsonNode cartJSON = Utils.readBasePriceFile("../red-bubble-code-challenge/src/test/resources/cart-Invalid-Qty.json");
         PriceCalculator calculator = new PriceCalculator();
         calculator.calculateTotalPrice(basePriceIndex, cartJSON);
         assertEquals(testString, getOutput().trim());
@@ -61,7 +61,7 @@ public class PriceCalculatorTest {
     @Test
     public void testInvalidCartArtistMarkup() {
         final String testString = "The item should have valid artist markup greater than zero. Please try again.";
-        JsonNode cartJSON = Utils.readBasePriceFile("../RedbubbleCoding/src/test/resources/cart-Invalid-ArtistMarkup.json");
+        JsonNode cartJSON = Utils.readBasePriceFile("../red-bubble-code-challenge/src/test/resources/cart-Invalid-ArtistMarkup.json");
         PriceCalculator calculator = new PriceCalculator();
         calculator.calculateTotalPrice(basePriceIndex, cartJSON);
         assertEquals(testString, getOutput().trim());
