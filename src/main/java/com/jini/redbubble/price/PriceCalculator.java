@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jini.redbubble.index.BasePriceIndex;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
